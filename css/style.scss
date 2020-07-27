@@ -1,0 +1,108 @@
+        $primary:#3292A6;
+        $dark:#252525;
+        .navbar {
+            box-shadow: 2px 2px 5px $primary;
+            background: #FFF;
+            opacity: 0.9;
+            .nav-item {
+                font-size: 1.5rem;
+                padding-right: 20px;
+                .nav-link {
+                    color: #252525;
+                }
+                .nav-link:hover {
+                    color: $primary;
+                }
+            }
+            .nav-item:last-child {
+                padding-right: 0;
+            }
+        }
+        
+        #showcase {
+            min-height: 100%;
+            background: url(../img/mountains.jpg) rgba(50, 146, 156, 0.7);
+            background-size: cover;
+            background-blend-mode: multiply;
+        }
+        
+        #subscribe {
+            background: $dark;
+            .btn {
+                background: $primary;
+                border: none
+            }
+        }
+        
+        #boxes {
+            .col-lg-3:nth-child(odd) .card-body,
+            {
+                border: solid 1px $primary;
+            }
+            .col-lg-3:nth-child(odd) .card-body h3 {
+                color: $primary;
+            }
+            .col-lg-3:nth-child(even) .card-body {
+                background-color: $primary;
+                color: #FFF;
+            }
+        }
+ #book h3.display-4 {
+            color: #3292a6;
+  }
+  #authors{
+    img{
+      margin-top: -50px;
+    }
+    .fa{
+      font-size: 25px;
+      color: #3292A6;
+    }
+    .card:hover{
+      background: $primary;
+      color: #fff;
+  
+      .fa{
+        color: #fff;
+      }
+    }
+  }
+  input[type="submit"] {
+    display: block;
+    border-radius: 5px;
+    border-color: #3292a6;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: #3292a6;
+}
+#footer{
+    padding: 37px 20px;
+    background-color: #3292A6;
+    .row{
+        
+    }
+    text-align: center;
+    p{
+        padding-top: 30px;
+        margin: 0;
+    }
+    
+    span{
+        color: #FFF;
+        padding-bottom: 30px;
+        a{
+            color: #FFF;
+        }
+    }
+}
+@media(max-width: 575px) {
+    .hero-text{
+        
+        
+        h1{
+            font-size: 3rem;
+        }
+    }
+} 
